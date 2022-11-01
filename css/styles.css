@@ -1,13 +1,13 @@
 body{
     font-family:'Roboto', 'Raleway' ;
-
+    margin: 0;
 }
 h1,
 h2,
 h3,
 p {
-    margin: 0;
-  margin: 0;
+margin: 0;
+
 }
 .container{
     width: 1200px;
@@ -30,10 +30,19 @@ p {
     padding-left: 0;
     margin: 0;
 }
-.logo-link {
-    color: #2196F3;
+.logo {
+font-style: normal;
+font-weight: 700;
+font-size: 26px;
+line-height: 31px;
+color: #2196F3;
 }
 .logo-header{
+    
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
     color: #000000;
 }
 
@@ -153,8 +162,9 @@ p {
 }
 
 .quality-catalog{
-    margin: 0;
+    margin-bottom: 118px;
     display:flex;
+    /* outline: 2px solid tomato; */
 }
 .qualitys{
     padding-bottom: 94px;
@@ -208,14 +218,24 @@ p {
     margin-right: 30px;
     
 }
+
+.team{
+    background: #F5F4FA;
+}
 .foto-team{
     display: flex;
-    text-align: center;    
+     
 }
-
+.dream-team{
+    width: 270px;
+    height: 368px;
+    background: #FFFFFF;
+    border-radius: 0px 0px 4px 4px;
+}
  .dream-team:not(:last-child){
-    margin-right: 30px;
-    padding-left: 0;
+  margin-right: 30px;
+  padding-left: 0;
+    
 }
 
 .team-compound{
@@ -231,7 +251,8 @@ p {
     color: #212121;
 }
 .team-name{
-
+    padding-top: 30px;
+    padding-bottom: 10px;
     font-weight: 500;
     font-size: 16px;
     line-height: calc(19/16);
@@ -240,13 +261,15 @@ p {
     color: #212121;
 }
 .team-specialiti{
+    text-align: center;
+    letter-spacing: 0.03em;
+    padding-bottom: 30px;
+    color: #757575;
     font-weight: 400;
     font-size: 16px;
     line-height: calc(19/16);
-    /* identical to box height */
-    text-align: center;
-    letter-spacing: 0.03em;
-     color: #757575;}
+}
+    
 
 .location-street{
     font-weight: 400;
@@ -311,6 +334,22 @@ p {
     clip: rect(0 0 0 0);
     overflow: hidden;
   }
+  /* ФУТЕР */
+  .location-street{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+  }
+
+  .location-email,
+  .location-tel{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+  }
+
   footer{
     padding-top: 60px;
     padding-bottom: 60px;
@@ -336,14 +375,17 @@ p {
     height: 38px;
     padding-left: 22px;
     padding-right: 22px;
+    border: none;
     background: #F5F4FA;
-    border-radius: 4px;
+    border-radius: 4px ;
+    
 }
 .web{
     width: 125px;
     height: 38px;
     padding-left: 22px;
     padding-right: 22px;
+    border: none;
     background: #F5F4FA;
     border-radius: 4px;
 }
@@ -353,6 +395,7 @@ p {
     height: 38px;
     padding-left: 22px;
     padding-right: 22px;
+    border: none;
     background: #F5F4FA;
     border-radius: 4px;
 }
@@ -362,6 +405,7 @@ p {
     height: 38px;
     padding-left: 22px;
     padding-right: 22px;
+    border: none;
     background: #F5F4FA;
     border-radius: 4px;
 }
@@ -371,6 +415,7 @@ p {
     height: 38px;
     padding-left: 22px;
     padding-right: 22px;
+    border: none;
     background: #F5F4FA;
     border-radius: 4px;
 }
@@ -387,7 +432,6 @@ padding-bottom: 50px;
   }
    
   .fotos{
-    text-align: center;
     margin-right: 30px;
     margin-bottom: 30px;
     background: #FFFFFF;
