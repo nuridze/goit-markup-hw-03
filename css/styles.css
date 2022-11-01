@@ -49,8 +49,6 @@ p {
     display: flex;
     align-items: center;
     justify-content: space-between;
-
- 
 }
 
 .container-head::after{
@@ -132,7 +130,14 @@ p {
     line-height:calc(60/44);
     letter-spacing: 0.06em;
     text-transform: uppercase;
-    
+}
+.hero-tagline{
+    padding-bottom : 40px;
+   
+  
+    font-weight: 900;
+    font-size: 44px;
+    line-height:calc(60/44);
     color: #FFFFFF;
 }
 .main-button{
@@ -140,7 +145,6 @@ p {
     width: 216px;
     height: 50px;
     border-radius: 4px;
-
     font-weight: 700;
     font-size: 16px;
     line-height: calc(30/16);
@@ -151,12 +155,12 @@ p {
 .quality-catalog{
     margin: 0;
     display:flex;
-    
 }
 .qualitys{
     padding-bottom: 94px;
 
 }
+
 .qualiti-catalog-list{
  
     padding-bottom: 10px;
@@ -168,10 +172,14 @@ p {
     color: #212121;
 }
 
-
 .quality-title:not(:last-child){
     margin-right: 30px;
-    
+}
+.quality-catalog{
+    display:flex;
+}
+.quality-title:not(:last-child){
+    margin-right: 30px;
 }
 
 .qualiti-catalog-dignitis{
