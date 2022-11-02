@@ -332,6 +332,7 @@ color: #2196F3;
     clip: rect(0 0 0 0);
     overflow: hidden;
   }
+
   /* ФУТЕР */
   .location-street{
     font-style: normal;
@@ -359,9 +360,7 @@ color: #2196F3;
    }
 
   /* портфолио */
-.fotos-section{
-    /* outline: 1px solid tomato; */
-}
+
   .navi-button{
    display: flex;
    justify-content: center;
@@ -378,6 +377,12 @@ color: #2196F3;
     border: none;
     background: #F5F4FA;
     border-radius: 4px ;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
     
 }
 .web{
@@ -388,6 +393,11 @@ color: #2196F3;
     border: none;
     background: #F5F4FA;
     border-radius: 4px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
 }
 .applications{
     display: inline-block;
@@ -398,6 +408,11 @@ color: #2196F3;
     border: none;
     background: #F5F4FA;
     border-radius: 4px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
 }
 .design{
     display: inline-block;
@@ -408,6 +423,11 @@ color: #2196F3;
     border: none;
     background: #F5F4FA;
     border-radius: 4px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
 }
 .market{
     display: inline-block;
@@ -418,6 +438,11 @@ color: #2196F3;
     border: none;
     background: #F5F4FA;
     border-radius: 4px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
 }
 .basic{
 padding-bottom: 50px;
