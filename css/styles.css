@@ -445,7 +445,7 @@ color: #2196F3;
     line-height: 26px;
 }
 .basic{
-padding-bottom: 50px;
+    padding-bottom: 50px;
 }
   .basic :not(:last-child){
     margin-right: 8px;
@@ -457,8 +457,6 @@ padding-bottom: 50px;
   }
    
   .fotos{
-   
-    /* margin-bottom: 30px; */
     background: #FFFFFF;
    
   }
